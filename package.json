@@ -1,0 +1,31 @@
+{
+  "name": "@astro-my/template-fetcher",
+  "version": "1.0.0",
+  "description": "Template Fetcher and Parser from s3",
+  "main": "lib/index.js",
+  "author": "Rahul Khanna",
+  "license": "MIT",
+  "scripts": {
+    "test": "cross-env NODE_ENV=test nyc --reporter=html --reporter=text mocha --exit --timeout 20000 --recursive \"lib/**/*.spec.js\"",
+    "test:unit": "cross-env NODE_ENV=test mocha --exit --timeout 20000 --recursive \"lib/**/*.spec.js\""
+  },
+  "keywords": [
+    "template-service",
+    "s3",
+    "template-engine",
+    "node",
+    "astro"
+  ],
+  "dependencies": {
+    "aws-sdk": "^2.283.1",
+    "mustache": "^2.3.0"
+  },
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "dotenv-safe": "^6.0.0",
+    "mocha": "^5.2.0",
+    "nyc": "^12.0.2",
+    "rewire": "^4.0.1",
+    "sinon": "^6.1.4"
+  }
+}
