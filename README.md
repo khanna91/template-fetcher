@@ -11,8 +11,6 @@ Steps to use
 - accessKeyId (required)
 
 - secretAccessKey (required)
-  
--  bucketName (required)
    
 -  folderName (required)
 
