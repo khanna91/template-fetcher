@@ -10,6 +10,10 @@ Steps to use
 
 -  folderName (required)
 
+- accessKeyId (optional)
+
+- secretAccessKey (optional)
+
 1. Where ever you need to get the template, please use these methods,
 - raw(params) : if you need to fetch the raw template without any modification or data injection
 - interpolate(params, data) : if you need to inject the data into template, pass it in this function
