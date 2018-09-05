@@ -8,10 +8,6 @@ Steps to use
 
 - region (required)
 
-- accessKeyId (required)
-
-- secretAccessKey (required)
-   
 -  folderName (required)
 
 1. Where ever you need to get the template, please use these methods,
