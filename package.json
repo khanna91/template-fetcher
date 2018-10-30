@@ -1,6 +1,6 @@
 {
   "name": "@astro-my/template-fetcher",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "description": "Template Fetcher and Parser from s3",
   "main": "lib/index.js",
   "author": "Rahul Khanna",
